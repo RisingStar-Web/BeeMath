@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DC19EE6222FBEC300EF0F70 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC19EE5222FBEC300EF0F70 /* Level.swift */; };
+		9DC19EE8222FC11D00EF0F70 /* Sublevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC19EE7222FC11D00EF0F70 /* Sublevel.swift */; };
+		9DC19EEB222FD89700EF0F70 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC19EEA222FD89700EF0F70 /* Constants.swift */; };
+		9DC19EED222FFE8900EF0F70 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC19EEC222FFE8900EF0F70 /* MainScreenViewController.swift */; };
+		9DC19EF02230002300EF0F70 /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC19EEE2230002300EF0F70 /* LevelCollectionViewCell.swift */; };
+		9DC19EF12230002300EF0F70 /* LevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC19EEF2230002300EF0F70 /* LevelCollectionViewCell.xib */; };
+		9DC19EF6223005A600EF0F70 /* bee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DC19EF5223005A600EF0F70 /* bee.mp3 */; };
 		9DD8F62C222ECD41009289A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8F62B222ECD41009289A3 /* AppDelegate.swift */; };
-		9DD8F62E222ECD41009289A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8F62D222ECD41009289A3 /* ViewController.swift */; };
+		9DD8F62E222ECD41009289A3 /* BeeGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8F62D222ECD41009289A3 /* BeeGameViewController.swift */; };
 		9DD8F631222ECD41009289A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD8F62F222ECD41009289A3 /* Main.storyboard */; };
 		9DD8F633222ECD42009289A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD8F632222ECD42009289A3 /* Assets.xcassets */; };
 		9DD8F636222ECD42009289A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD8F634222ECD42009289A3 /* LaunchScreen.storyboard */; };
+		9DD8F63F222ED630009289A3 /* EvidenceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8F63D222ED630009289A3 /* EvidenceCollectionViewCell.swift */; };
+		9DD8F640222ED630009289A3 /* EvidenceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD8F63E222ED630009289A3 /* EvidenceCollectionViewCell.xib */; };
+		9DD8F643222ED6C6009289A3 /* Evidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD8F642222ED6C6009289A3 /* Evidence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9DC19EE5222FBEC300EF0F70 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		9DC19EE7222FC11D00EF0F70 /* Sublevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sublevel.swift; sourceTree = "<group>"; };
+		9DC19EEA222FD89700EF0F70 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9DC19EEC222FFE8900EF0F70 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		9DC19EEE2230002300EF0F70 /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DC19EEF2230002300EF0F70 /* LevelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelCollectionViewCell.xib; sourceTree = "<group>"; };
+		9DC19EF5223005A600EF0F70 /* bee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bee.mp3; sourceTree = "<group>"; };
 		9DD8F628222ECD41009289A3 /* BeeMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD8F62B222ECD41009289A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DD8F62D222ECD41009289A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DD8F62D222ECD41009289A3 /* BeeGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeGameViewController.swift; sourceTree = "<group>"; };
 		9DD8F630222ECD41009289A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DD8F632222ECD42009289A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DD8F635222ECD42009289A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DD8F637222ECD42009289A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD8F63D222ED630009289A3 /* EvidenceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvidenceCollectionViewCell.swift; sourceTree = "<group>"; };
+		9DD8F63E222ED630009289A3 /* EvidenceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EvidenceCollectionViewCell.xib; sourceTree = "<group>"; };
+		9DD8F642222ED6C6009289A3 /* Evidence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evidence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,7 @@
 		9DD8F61F222ECD40009289A3 = {
 			isa = PBXGroup;
 			children = (
+				9DC19EF5223005A600EF0F70 /* bee.mp3 */,
 				9DD8F62A222ECD41009289A3 /* BeeMath */,
 				9DD8F629222ECD41009289A3 /* Products */,
 			);
@@ -54,14 +75,31 @@
 		9DD8F62A222ECD41009289A3 /* BeeMath */ = {
 			isa = PBXGroup;
 			children = (
+				9DD8F641222ED6B0009289A3 /* Models */,
 				9DD8F62B222ECD41009289A3 /* AppDelegate.swift */,
-				9DD8F62D222ECD41009289A3 /* ViewController.swift */,
+				9DD8F62D222ECD41009289A3 /* BeeGameViewController.swift */,
 				9DD8F62F222ECD41009289A3 /* Main.storyboard */,
 				9DD8F632222ECD42009289A3 /* Assets.xcassets */,
 				9DD8F634222ECD42009289A3 /* LaunchScreen.storyboard */,
 				9DD8F637222ECD42009289A3 /* Info.plist */,
+				9DD8F63D222ED630009289A3 /* EvidenceCollectionViewCell.swift */,
+				9DD8F63E222ED630009289A3 /* EvidenceCollectionViewCell.xib */,
+				9DC19EEA222FD89700EF0F70 /* Constants.swift */,
+				9DC19EEC222FFE8900EF0F70 /* MainScreenViewController.swift */,
+				9DC19EEE2230002300EF0F70 /* LevelCollectionViewCell.swift */,
+				9DC19EEF2230002300EF0F70 /* LevelCollectionViewCell.xib */,
 			);
 			path = BeeMath;
+			sourceTree = "<group>";
+		};
+		9DD8F641222ED6B0009289A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DD8F642222ED6C6009289A3 /* Evidence.swift */,
+				9DC19EE5222FBEC300EF0F70 /* Level.swift */,
+				9DC19EE7222FC11D00EF0F70 /* Sublevel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC19EF6223005A600EF0F70 /* bee.mp3 in Resources */,
 				9DD8F636222ECD42009289A3 /* LaunchScreen.storyboard in Resources */,
+				9DD8F640222ED630009289A3 /* EvidenceCollectionViewCell.xib in Resources */,
 				9DD8F633222ECD42009289A3 /* Assets.xcassets in Resources */,
+				9DC19EF12230002300EF0F70 /* LevelCollectionViewCell.xib in Resources */,
 				9DD8F631222ECD41009289A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD8F62E222ECD41009289A3 /* ViewController.swift in Sources */,
+				9DC19EF02230002300EF0F70 /* LevelCollectionViewCell.swift in Sources */,
+				9DD8F643222ED6C6009289A3 /* Evidence.swift in Sources */,
+				9DC19EE8222FC11D00EF0F70 /* Sublevel.swift in Sources */,
+				9DD8F63F222ED630009289A3 /* EvidenceCollectionViewCell.swift in Sources */,
+				9DD8F62E222ECD41009289A3 /* BeeGameViewController.swift in Sources */,
+				9DC19EEB222FD89700EF0F70 /* Constants.swift in Sources */,
+				9DC19EED222FFE8900EF0F70 /* MainScreenViewController.swift in Sources */,
+				9DC19EE6222FBEC300EF0F70 /* Level.swift in Sources */,
 				9DD8F62C222ECD41009289A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,17 +330,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7XSVATSQ6N;
+				DEVELOPMENT_TEAM = 7TZHUSMQTT;
 				INFOPLIST_FILE = BeeMath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Kinect.Pro.BeeMath;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kate.Pro.BeeMath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,17 +350,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7XSVATSQ6N;
+				DEVELOPMENT_TEAM = 7TZHUSMQTT;
 				INFOPLIST_FILE = BeeMath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Kinect.Pro.BeeMath;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kate.Pro.BeeMath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
